@@ -7,9 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-
-import { environment } from '../environments/environment';
-
+import { MatButtonModule, MatFormFieldModule, MatInputModule} from '@angular/material';
 import { HomeComponent} from './home/home.component';
 import { PageNotFoundComponent } from './error/page-not-found/page-not-found.component';
 
@@ -23,7 +21,10 @@ import { PageNotFoundComponent } from './error/page-not-found/page-not-found.com
         BrowserModule,
         AppRoutingModule,
         FormsModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatFormFieldModule,
+        MatInputModule
     ],
     entryComponents: [ ],
     providers: [ ],

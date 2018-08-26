@@ -1,0 +1,7 @@
+<mat-form-field class="mat-full-width">
+  <input matInput placeholder="宛先のアドレス" [(ngModel)]="address">
+</mat-form-field>
+<mat-form-field class="mat-full-width">
+    <input type="number" matInput placeholder="送金量" [(ngModel)]="amount">
+  </mat-form-field>
+<button mat-button (click)="transfer()">送金</button>
