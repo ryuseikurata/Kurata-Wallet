@@ -1,3 +1,4 @@
-<main [@fade]="o.isActivated ? o.activatedRoute : ''">
-    <router-outlet #o="outlet"></router-outlet>
+<main>
+    <!-- homeにいけるようにrouter-outletをかく-->
+    <router-outlet o="outlet"></router-outlet>
 </main>
